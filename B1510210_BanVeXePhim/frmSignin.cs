@@ -107,10 +107,10 @@ namespace B1510210_QuanLyRapPhim
             if (traloi == DialogResult.OK)
             {
                 // Giải phóng tài nguyên
-                dtTABLENAME.Dispose();
                 dtTABLENAME = null;
                 // Hủy kết nối
                 conn = null;
+                this.Close();
             }
         }
 

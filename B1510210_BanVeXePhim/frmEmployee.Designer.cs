@@ -1456,7 +1456,7 @@ namespace B1510210_QuanLyRapPhim
             this.Controls.Add(this.menu);
             this.Name = "frmEmployee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmEmployee";
+            this.Text = "Quầy bán vé";
             this.Load += new System.EventHandler(this.frmEmployee_Load);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
